@@ -1,12 +1,11 @@
-module github.com/go-leo/gonv
+module github.com/soyacen/gonv
 
-go 1.20
+go 1.24.0
 
 require (
 	github.com/stretchr/testify v1.11.1
-	golang.org/x/exp v0.0.0-20240904232852-e7e105dedf7e
-	google.golang.org/protobuf v1.34.2
-
+	golang.org/x/exp v0.0.0-20260112195511-716be5621a96
+	google.golang.org/protobuf v1.36.11
 )
 
 require (
